@@ -1,0 +1,41 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #f53d2d;
+  font-weight: bold;
+}
+
+.carousel-item img {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.card {
+  border: none;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  transform: scale(1.1);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.about-text {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
